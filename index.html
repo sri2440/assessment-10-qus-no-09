@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment 10</title>
+</head>
+<body>
+    <h2>Assessment 10 - Qus.no.09</h2>
+<script>
+//Create a JavaScript program that prints the following pattern using nested loops: 
+
+//1 
+//22 
+//333 
+//4444 
+//55555 
+
+const numberOfRows = 5;
+
+// Outer loop for each row
+for (let i = 1; i <= numberOfRows; i++) {
+  // Inner loop for each number in the current row
+  for (let j = 1; j <= i; j++) {
+    // Print the value of 'i' for 'j' times in each row
+    process.stdout.write(i.toString());
+  }
+  // Move to the next line after printing each row
+  process.stdout.write("\n");
+}
+
+</script>
+</body>
+</html>
